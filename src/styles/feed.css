@@ -69,7 +69,7 @@
     
   .post-user {
     border: none;
-    background-color: #FFFFFF;
+    background-color: #F4F4F4;
     cursor: pointer;
     font-size: 16px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -82,7 +82,7 @@
   }
 
   .follow-button {
-    background-color: #FFFFFF;
+    background-color: #F4F4F4;
     color: #589A74;
     border: none;
     padding: 1px 10px;
