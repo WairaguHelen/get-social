@@ -1,0 +1,138 @@
+.news-feed {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-list {
+    margin-top: 20px;
+  }
+  
+  .post {
+    padding: 15px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .post:last-child {
+    border-bottom: none;
+  }
+  
+  .post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .post-profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .post-header h3 {
+    margin: 0;
+  }
+  
+  .post-header p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  .post-content {
+    margin: 10px 0;
+    font-size: 1.1em;
+  }
+  
+  .post-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .post-actions button {
+    background: #589A74;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .post-actions button:hover {
+    background: #18d567;
+  }
+    
+  .post-user {
+    border: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .user-status {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+  }
+
+  .follow-button {
+    background-color: #FFFFFF;
+    color: #589A74;
+    border: none;
+    padding: 1px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .comments-section {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+  }
+  
+  .add-comment textarea {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+  }
+  
+  .add-comment button {
+    display: block;
+    padding: 5px 10px;
+    background-color: #589A74;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-comment button:hover {
+    background-color: #18d567;
+  }
+  
+  .comments-list {
+    margin-top: 10px;
+  }
+  
+  .comment {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .comment:last-child {
+    border-bottom: none;
+  }
+
+  .post-header img {
+    border-radius: 50%;
+  }
+  
+  

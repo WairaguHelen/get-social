@@ -1,0 +1,95 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #1b1919;
+    height: 1000px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .navbar, .footer {
+    background-color: #589A74;
+    color: #1b1919;
+    padding: 10px 20px;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .navbar .navbar-links a {
+    margin-right: 15px;
+    color: #1b1919;
+  }
+  
+  .navbar .search-bar {
+    padding: 5px;
+    margin-left: auto;
+  }
+
+  .navbar p{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+  }
+
+  .navigation-links {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 15px;
+    position: relative;
+    position: sticky;    
+    font-size: large;
+  }
+
+  .search-bar {
+    display: flex;
+    border: none;
+    border-radius: 4px;
+    width: 350px;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .edit-profile-btn {
+    background: #b4c6bc;
+    color: #1b1919;
+    border: none;
+    padding: 1px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .edit-profile-btn:hover {
+    background: #2fd374;
+  }
+
+  .profile-stats {
+    margin-bottom: 10px;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: #b4c6bc;
+  }
+
+  .align-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
